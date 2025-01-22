@@ -19,12 +19,12 @@ This program is designed to read the first sector of a disk (MBR - Master Boot R
 
 1. Assemble the program:
     ```bash
-    nasm -f elf64 -o read-disk-sector.obj read-disk-sector.nasm
+    nasm -f elf64 -o read-disk-sector-linux-x64.obj read-disk-sector-linux-x64.nasm
     ```
 
 2. Link the object file to create the executable:
     ```bash
-    ld -s -o read-disk-sector.elf64 read-disk-sector.obj
+    ld -s -o read-disk-sector-linux-x64.elf64 read-disk-sector-linux-x64.obj
     ```
 
 ## How to Run
@@ -32,7 +32,7 @@ This program is designed to read the first sector of a disk (MBR - Master Boot R
 To run the program, use the following command (it requires `sudo` to access raw disk data):
 
 ```bash
-sudo ./read-disk-sector.elf64 < /dev/sda | hexdump
+sudo ./read-disk-sector-linux-x64.elf64 < /dev/sda | hexdump
 ```
 
 This will output the raw contents of the first sector of the `/dev/sda` disk, which is typically where the Master Boot Record (MBR) resides.

@@ -8,6 +8,7 @@
 # Usage:
 #   ./build.bash <nasm_source_file>
 
+
 # Setting up variables for syntax highlighting of text
 source ./colors_varialbes
 

@@ -6,13 +6,13 @@
 # GitHub: https://github.com/dawciobiel
 #
 # Usage:
-#   ./read-disk-sector-dd.sh < "/dev/sda" | hexdump
+#   ./read-disk-sector-dd-linux.sh /dev/sda
 
 
 # Check if the first parameter (drive path) is provided
 if [ -z "$1" ]; then
     echo "Error: No drive path provided."
-    echo "Usage: ./read-disk-sector-dd.sh <drive-path>"
+    echo "Usage: ./read-disk-sector-dd-linux.sh <drive-path>"
     exit 1
 fi
 

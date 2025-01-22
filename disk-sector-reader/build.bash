@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # The script is used for compilation and linking using NASM of the source code file given as the launch parameter.
+#
 # Author: Dawid Bielecki - dawciobiel
 # GitHub: https://github.com/dawciobiel
+#
 # Usage:
 #   ./build.bash <nasm_source_file>
 

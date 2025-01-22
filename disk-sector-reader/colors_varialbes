@@ -7,7 +7,7 @@
 #
 # Usage: 
 #        In other script:
-#        source ./colors
+#        source ./colors_varialbes
 #        echo -e "${RED}This is red text${NC}"
 
 

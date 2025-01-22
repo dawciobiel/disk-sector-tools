@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script Name: colors
+# Script Name: colors_varialbes
 # Author: Dawid Bielecki - dawciobiel
 # GitHub: https://github.com/dawciobiel
 # Description: Setting variables for colors for bash scripts.

@@ -3,7 +3,7 @@
 ; Author: Dawid Bielecki - dawciobiel
 ; GitHub: https://github.com/dawciobiel
 ; Usage:
-;   ./read-disk-sector.elf64 < /dev/sda | hexdump
+;   ./read-disk-sector-linux-x64.elf64 < /dev/sda | hexdump
 
 section .bss
     ; Reserve 512 bytes for the sector data (one sector is 512 bytes in size)

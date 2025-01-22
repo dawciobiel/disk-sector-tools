@@ -4,7 +4,7 @@
 ; GitHub: https://github.com/dawciobiel
 ; Version: beta
 ; Usage:
-;   ./read-disk-sector-beta-macos.macho64 < /dev/sda | hexdump
+;   ./read-disk-sector-beta-macos.out < /dev/sda | hexdump
 
 section .bss
     ; Reserve 512 bytes for the sector data (one sector is 512 bytes in size)

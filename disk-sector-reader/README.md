@@ -19,12 +19,12 @@ This program is designed to read the first sector of a disk (MBR - Master Boot R
 
 1. Assemble the program:
     ```bash
-    nasm -f elf64 -o read-disk-sector.o read-disk-sector.nasm
+    nasm -f elf64 -o read-disk-sector.obj read-disk-sector.nasm
     ```
 
 2. Link the object file to create the executable:
     ```bash
-    ld -s -o read-disk-sector.elf64 read-disk-sector.o
+    ld -s -o read-disk-sector.elf64 read-disk-sector.obj
     ```
 
 ## How to Run

@@ -7,7 +7,7 @@
 #   ./build.bash <nasm_source_file>
 
 # Setting up variables for syntax highlighting of text
-source ./colors
+source ./colors_varialbes
 
 # Displaying an empty line
 echo -e ""

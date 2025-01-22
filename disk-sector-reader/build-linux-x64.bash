@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# The script is used for compilation and linking using NASM of the source code file given as the launch parameter.
+# The script is used under linux x64 for compilation and linking using NASM of the source code file given as the launch parameter.
 #
 # Author: Dawid Bielecki - dawciobiel
 # GitHub: https://github.com/dawciobiel
 #
 # Usage:
-#   ./build.bash <nasm_source_file>
+#   ./build-linux-x64.bash <nasm_source_file>
 
 
 # Setting up variables for syntax highlighting of text

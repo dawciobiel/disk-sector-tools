@@ -4,9 +4,10 @@
 #
 # Author: Dawid Bielecki - dawciobiel
 # GitHub: https://github.com/dawciobiel
+# Version: beta
 #
 # Usage:
-#   ./read-disk-sector-dd.sh <drive-path>
+#   ./read-disk-sector-dd-beta-macos.sh <drive-path>
 
 # Check if the first parameter (drive path) is provided
 if [ -z "$1" ]; then

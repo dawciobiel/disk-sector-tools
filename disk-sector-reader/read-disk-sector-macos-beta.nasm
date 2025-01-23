@@ -7,6 +7,7 @@
 ;
 ; Usage:
 ;   ./read-disk-sector-beta-macos.out < /dev/sda | hexdump
+;   ./read-disk-sector-beta-macos.elf64 < /dev/sda > first-sector.bin
 
 section .bss
     ; Reserve 512 bytes for the sector data (one sector is 512 bytes in size)

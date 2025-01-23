@@ -4,6 +4,7 @@
 #
 # Author: Dawid Bielecki - dawciobiel
 # GitHub: https://github.com/dawciobiel
+# Version: 1.0
 #
 # Usage:
 #   ./build-linux-x64.bash <nasm_source_file>

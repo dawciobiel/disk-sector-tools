@@ -6,7 +6,7 @@
 ; Version: beta
 ;
 ; Usage:
-;   ./read-disk-sector-beta-macos.out < /dev/sda | hexdump
+;   ./read-disk-sector-beta-macos.out < /dev/sda
 ;   ./read-disk-sector-beta-macos.elf64 < /dev/sda > first-sector.bin
 
 

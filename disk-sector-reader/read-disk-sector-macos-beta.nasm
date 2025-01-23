@@ -1,8 +1,10 @@
 ; Program to read the first sector of the disk and display its raw content
 ; The first sector is typically the Master Boot Record (MBR), containing the bootloader and partition information
+;
 ; Author: Dawid Bielecki - dawciobiel
 ; GitHub: https://github.com/dawciobiel
 ; Version: beta
+;
 ; Usage:
 ;   ./read-disk-sector-beta-macos.out < /dev/sda | hexdump
 

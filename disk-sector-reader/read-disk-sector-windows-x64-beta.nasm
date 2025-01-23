@@ -6,7 +6,7 @@
 ; Version: beta
 ;
 ; Usage:
-;   ./read-disk-sector-beta-win.exe > read-disk-sector-beta-win.exe.bin
+;   ./read-disk-sector-beta-windows-x64n.exe > read-disk-sector-beta-windows-x64.exe.bin
 
 
 section .data

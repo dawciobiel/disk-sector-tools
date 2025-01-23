@@ -9,6 +9,7 @@
 # Usage:
 #   ./read-disk-sector-dd-beta-macos.sh <drive-path>
 
+
 # Check if the first parameter (drive path) is provided
 if [ -z "$1" ]; then
     echo "Error: No drive path provided."

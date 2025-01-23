@@ -4,9 +4,11 @@
 #
 # Author: Dawid Bielecki - dawciobiel
 # GitHub: https://github.com/dawciobiel
+# Version: 1.0
 #
 # Usage:
 #   ./read-disk-sector-dd-linux.sh /dev/sda
+#   ./read-disk-sector-dd-linux.sh /dev/sda > first-sector.bin
 
 
 # Check if the first parameter (drive path) is provided

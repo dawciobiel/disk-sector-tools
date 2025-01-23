@@ -1,10 +1,14 @@
 ; Program to read the first sector of the disk and display its raw content
 ; The first sector is typically the Master Boot Record (MBR), containing the bootloader and partition information
+;
 ; Author: Dawid Bielecki - dawciobiel
 ; GitHub: https://github.com/dawciobiel
+; Version: 1.0
+;
 ; Usage:
 ;   ./read-disk-sector-linux-x64.elf64 < /dev/sda | hexdump
 ;   ./read-disk-sector-linux-x64.elf64 < /dev/sda > first-sector.bin
+
 
 section .bss
     ; Reserve 512 bytes for the sector data (one sector is 512 bytes in size)

@@ -1,4 +1,5 @@
 @echo off
+
 REM The script is used under Windows for compilation and linking using NASM of the source code file given as the launch parameter.
 REM
 REM Author: Dawid Bielecki - dawciobiel
@@ -7,6 +8,7 @@ REM Version: beta
 REM
 REM Usage:
 REM   build-windows-x64.bat <nasm_source_file>
+
 
 REM Displaying an empty line
 echo.

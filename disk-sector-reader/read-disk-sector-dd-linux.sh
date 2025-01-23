@@ -7,7 +7,7 @@
 # Version: 1.0
 #
 # Usage:
-#   ./read-disk-sector-dd-linux.sh /dev/sda
+#   ./read-disk-sector-dd-linux.sh /dev/sda | hexdump
 #   ./read-disk-sector-dd-linux.sh /dev/sda > first-sector.bin
 
 

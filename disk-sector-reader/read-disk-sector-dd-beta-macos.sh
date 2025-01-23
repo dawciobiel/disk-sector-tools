@@ -8,6 +8,7 @@
 #
 # Usage:
 #   ./read-disk-sector-dd-beta-macos.sh <drive-path>
+#   ./read-disk-sector-dd-beta-macos.sh <drive-path> > first-sector.bin
 
 
 # Check if the first parameter (drive path) is provided
